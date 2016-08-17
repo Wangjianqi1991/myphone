@@ -1,0 +1,54 @@
+@url:'../img/liebao';
+@w:960px;
+@bg:#000;
+.font(@val:12;@c:#000;@b:normal){
+  color: @c;
+  font-size: unit(@val,px);
+  font-weight: @b;
+}
+.position(@property:absolute;@top:0;@left:0;@right:auto;@bottom:auto;@zIndex:1){
+  position: @property;
+  top:@top;
+  left: @left;
+  right:@right;
+  bottom: @bottom;
+  z-index: @zIndex;
+}
+
+.opacity(@val:1){
+  @temp:@val*100;
+  opacity: @val;
+  filter: alpha(opacity=@temp);
+}
+
+.transition(@property: all;@duration:1s;@time-function:linear;@delay:0s){
+  -webkit-transition: @arguments;
+  -moz-transition: @arguments;
+  -ms-transition: @arguments;
+  -o-transition: @arguments;
+  transition: @arguments;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
