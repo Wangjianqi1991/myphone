@@ -245,33 +245,48 @@ html {
 }
 
 .zh .box li:nth-child(1) {
-    transform: rotateX(90deg) translateZ(1rem)
+    -webkit-transform: rotateX(90deg) translateZ(1rem);
+    transform: rotateX(90deg) translateZ(1rem);
+    background: url("../img/wo1.png") no-repeat;
+    background-size: cover;
 }
 
 .zh .box li:nth-child(2) {
-    transform: rotateX(-90deg) translateZ(1rem)
+    -webkit-transform: rotateX(-90deg) translateZ(1rem);
+    transform: rotateX(-90deg) translateZ(1rem);
+    background: url("../img/wo2.png") no-repeat;
+    background-size: cover;
 }
 
 .zh .box li:nth-child(3) {
-    transform: rotateY(90deg) translateZ(1rem)
+    -webkit-transform: rotateX(90deg) translateZ(1rem);
+    transform: rotateY(90deg) translateZ(1rem);
+    background: url("../img/wo3.png") no-repeat;
+    background-size: cover;
 }
 
 .zh .box li:nth-child(4) {
-    transform: rotateY(-90deg) translateZ(1rem)
+    -webkit-transform: rotateX(-90deg) translateZ(1rem);
+    transform: rotateY(-90deg) translateZ(1rem);
+    background: url("../img/wo4.png") no-repeat;
+    background-size: cover;
 }
 
 .zh .box li:nth-child(5) {
+    -webkit-transform: rotateX(180deg) translateZ(1rem);
     transform: rotateY(180deg) translateZ(1rem)
 }
 
 .zh .box li:nth-child(6) {
-    transform: translateZ(1rem)
+    -webkit-transform: translateZ(1rem);
+    transform: translateZ(1rem);
+    background: url("../img/wo5.png") no-repeat;
+    background-size: cover;
 }
 
 @-webkit-keyframes move {
     0% {
         transform: rotateX(0deg) rotateY(0deg);
-        /*transform: scale(0.2);*/
     }
     100% {
         transform: rotateX(360deg) rotateY(360deg);
@@ -547,6 +562,8 @@ html {
     position: absolute;
     top: .5rem;
     right: .5rem;
+    background: url("../img/wo2.png") no-repeat;
+    background-size: 100% 100%;
     opacity: 0;
 }
 
@@ -602,11 +619,6 @@ html {
 
 }
 
-/*#page2 .leftUl li:nth-child(2) {
-    -webkit-animation: rollIn 1s linear .5s both;
-    animation: rollIn 1s linear .5s both;
-    background: rgb(242, 182, 70);
-}*/
 
 #page2 .leftUl li:nth-child(2) {
     -webkit-animation: rollIn 1s linear 1s both;
@@ -995,7 +1007,7 @@ html {
  #page4 ul:nth-child(1){
      -webkit-animation: ul1 1s linear 0s both;
      animation: ul1 1s linear 0s both;
-     background: url("../img/7.jpeg") no-repeat;
+     background: url("../img/10.png") no-repeat;
      background-size: 3.8rem 9rem;
      width: 3.8rem;
      height: 9rem;
@@ -1035,7 +1047,7 @@ html {
 #page4 ul:nth-child(2){
     -webkit-animation: ul2 1s linear 0s both;
     animation: ul2 1s linear 0s both;
-    background: url("../img/9.jpeg") no-repeat;
+    background: url("../img/7.png") no-repeat;
     background-size: 3.7rem 4.5rem;
     width: 3.7rem;
     height: 4.5rem;
@@ -1076,7 +1088,7 @@ html {
 #page4 ul:nth-child(3){
     -webkit-animation: ul3 1s linear 0s both;
     animation: ul3 1s linear 0s both;
-    background: url("../img/8.jpeg") no-repeat;
+    background: url("../img/8.png") no-repeat;
     background-size: 3.7rem 9rem;
     width: 3.7rem;
     height: 9rem;
@@ -1117,7 +1129,7 @@ html {
 #page4 ul:nth-child(4){
     -webkit-animation: ul4 1s linear 0s both;
     animation: ul4 1s linear 0s both;
-    background: url("../img/10.jpeg") no-repeat;
+    background: url("../img/9.png") no-repeat;
     background-size: 3.8rem 4.5rem;
     width: 3.8rem;
     height: 4.5rem;
@@ -1275,6 +1287,10 @@ html {
     text-align: center;
     font-size: .4rem;
     opacity: 1;
+}
+#page5 ul li:nth-child(2) a{
+    width: 100%;
+    height: 10%;
 }
 #page5 ul li:nth-child(3){
     width: 100%;
